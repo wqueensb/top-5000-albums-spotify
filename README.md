@@ -1,1 +1,2 @@
 # top-5000-albums-spotify
+I found another interesting dataset on Kaggle and this one appealed to my love of music. Using SQL I was able to perform ETL functions and find interesting facts from this dataset. 
