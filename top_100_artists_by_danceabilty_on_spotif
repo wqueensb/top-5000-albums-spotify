@@ -1,0 +1,105 @@
+select ars_name as Artist_Name, danceability as Dance_Rating
+from top5000albums-spotify.Top5000albums.Top_5000_Spotify_Albums
+Order by danceability desc
+Limit 100;
+
+| Artist_Name                                   	| Dance_Rating        	|
+|-----------------------------------------------	|---------------------	|
+| Melvins                                       	| 0.946               	|
+| John Carpenter & Alan Howarth                 	| 0.938               	|
+| Kraftwerk                                     	| 0.929               	|
+| The Toms                                      	| 0.911               	|
+| The KLF                                       	| 0.909               	|
+| Kenny Dorham                                  	| 0.9                 	|
+| Keith Rowe                                    	| 0.891               	|
+| O.C.                                          	| 0.884               	|
+| Overkill                                      	| 0.8810625           	|
+| Terry Riley                                   	| 0.877               	|
+| Earth, Wind & Fire                            	| 0.8716666666666667  	|
+| Shabazz Palaces                               	| 0.869               	|
+| Gamma Ray                                     	| 0.86645454545454548 	|
+| Caetano Veloso                                	| 0.863               	|
+| Talking Heads                                 	| 0.862909090909091   	|
+| Roxy Music                                    	| 0.862               	|
+| Fela and The Africa 70                        	| 0.861               	|
+| The Tony Williams Lifetime                    	| 0.85942857142857143 	|
+| N.W.A                                         	| 0.85869230769230764 	|
+| Sonic Youth                                   	| 0.857               	|
+| Ultramagnetic MC's                            	| 0.85176190476190472 	|
+| Scarface                                      	| 0.85166666666666668 	|
+| Pet Shop Boys                                 	| 0.84984615384615381 	|
+| Bob Marley & The Wailers                      	| 0.84741666666666671 	|
+| Ron Sexsmith                                  	| 0.847               	|
+| Mellow Candle                                 	| 0.84604             	|
+| Red Dog                                       	| 0.8458              	|
+| Bark Psychosis                                	| 0.845               	|
+| Janet Jackson                                 	| 0.84372222222222226 	|
+| The Soft Machine                              	| 0.84372222222222226 	|
+| Songs: Ohia                                   	| 0.8428              	|
+| A Tribe Called Quest                          	| 0.84221428571428569 	|
+| Mal Waldron with Eric Dolphy and Booker Ervin 	| 0.84221428571428569 	|
+| Teenage Fanclub                               	| 0.841               	|
+| Bill Fay                                      	| 0.839               	|
+| Sabotage                                      	| 0.83761538461538465 	|
+| Kool G Rap & DJ Polo                          	| 0.83636363636363642 	|
+| The Replacements                              	| 0.836               	|
+| Triple Six Mafia                              	| 0.836               	|
+| ELO                                           	| 0.836               	|
+| Lucinda Williams                              	| 0.835               	|
+| Eric B. & Rakim                               	| 0.835               	|
+| Cannonball Adderley With Bill Evans           	| 0.831               	|
+| Rory Gallagher                                	| 0.83                	|
+| Fela Ransome-Kuti & The Africa 70             	| 0.8296              	|
+| U2                                            	| 0.8283              	|
+| Todd Edwards                                  	| 0.82828571428571429 	|
+| Tim Hecker                                    	| 0.828               	|
+| Bob Marley & The Wailers                      	| 0.82566666666666666 	|
+| Suede                                         	| 0.8254285714285714  	|
+| British Sea Power                             	| 0.825               	|
+| Four Tet                                      	| 0.825               	|
+| Lords of the Underground                      	| 0.82446666666666668 	|
+| KRS-One                                       	| 0.8244285714285714  	|
+| Slaughter                                     	| 0.82400000000000007 	|
+| Sonny Rollins                                 	| 0.824               	|
+| Cristobal Tapia de Veer                       	| 0.82361538461538464 	|
+| Spock's Beard                                 	| 0.8216              	|
+| Motörhead                                     	| 0.82                	|
+| Snoop Doggy Dogg                              	| 0.81966666666666665 	|
+| Moor Mother & Billy Woods                     	| 0.817               	|
+| Jeff Rosenstock                               	| 0.816               	|
+| Albert King                                   	| 0.816               	|
+| David Lynch & Alan R. Splet                   	| 0.81544444444444442 	|
+| Max Richter                                   	| 0.814               	|
+| Nine Inch Nails                               	| 0.814               	|
+| Show & A.G.                                   	| 0.81340909090909086 	|
+| Scarface                                      	| 0.812               	|
+| Gentle Giant                                  	| 0.811               	|
+| Łona                                          	| 0.81092307692307686 	|
+| New Order                                     	| 0.81091666666666662 	|
+| Magnetic Fields                               	| 0.81                	|
+| Paco de Lucía                                 	| 0.809375            	|
+| Black Moon                                    	| 0.80769230769230771 	|
+| Spice 1                                       	| 0.80753333333333333 	|
+| Pat Martino                                   	| 0.80735714285714288 	|
+| Hank Mobley                                   	| 0.8071071428571428  	|
+| Portraits of Past                             	| 0.807               	|
+| Joni Mitchell                                 	| 0.807               	|
+| Muddy Waters                                  	| 0.807               	|
+| Clann Zú                                      	| 0.806               	|
+| Anathema                                      	| 0.80499999999999994 	|
+| Neil Young with Crazy Horse                   	| 0.804875            	|
+| Fela Anikulapo Kuti and the Afrika 70         	| 0.803               	|
+| Wu-Tang Clan                                  	| 0.80286666666666673 	|
+| 2Pac                                          	| 0.80286666666666673 	|
+| The Incredible Jimmy Smith                    	| 0.801               	|
+| Smog                                          	| 0.80014285714285716 	|
+| Scraping Foetus Off the Wheel                 	| 0.8                 	|
+| Widdly 2 Diddly                               	| 0.8                 	|
+| Three Man Army                                	| 0.8                 	|
+| Linton Kwesi Johnson                          	| 0.799625            	|
+| Meshuggah                                     	| 0.799               	|
+| Sandy Denny                                   	| 0.798               	|
+| Ini Kamoze                                    	| 0.79783333333333328 	|
+| Digable Planets                               	| 0.79721428571428576 	|
+| Isaac Hayes                                   	| 0.7958              	|
+| Gentle Giant                                  	| 0.79577777777777781 	|
