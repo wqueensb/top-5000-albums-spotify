@@ -1,0 +1,17 @@
+SELECT ars_name as artist, album, avg_rat
+ FROM `top5000albums-spotify.Top5000albums.Top_5000_Spotify_Albums` 
+ ORDER BY avg_rat desc
+ LIMIT 10
+ 
+ | artist              	| album                                                         	| avg_rat 	|
+|---------------------	|---------------------------------------------------------------	|---------	|
+| Mingus              	| The Black Saint and the Sinner Lady                           	| 4.34    	|
+| John Coltrane       	| A Love Supreme                                                	| 4.3     	|
+| King Crimson        	| In the Court of the Crimson King                              	| 4.3     	|
+| Pink Floyd          	| Wish You Were Here                                            	| 4.29    	|
+| Kendrick Lamar      	| To Pimp a Butterfly                                           	| 4.27    	|
+| David Bowie         	| The Rise and Fall of Ziggy Stardust and the Spiders From Mars 	| 4.26    	|
+| Madvillain          	| Madvillainy                                                   	| 4.26    	|
+| Talking Heads       	| Remain in Light                                               	| 4.25    	|
+| The Beatles         	| Abbey Road                                                    	| 4.25    	|
+| My Bloody Valentine 	| Loveless                                                      	| 4.24    	|
